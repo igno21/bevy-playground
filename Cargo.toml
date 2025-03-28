@@ -1,14 +1,5 @@
-[package]
-name = "bevy-playground"
-version = "0.1.0"
-edition = "2024"
-
-[dependencies]
-bevy = "0.15.3"
-rand = "0.8"
-rand_chacha = "0.3"
-
-
-[[example]]
-name = "my_bevy_game"  # The name you'll use with cargo run --example
-path = "examples/first_example/my_bevy_game.rs"
+[workspace]
+resolver = "2"
+members = [
+	"breakout",
+]
